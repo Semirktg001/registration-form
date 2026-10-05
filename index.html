@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABM. Dr. Halima Sulaiman Zakari - Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-circle">
+                        <span>A</span>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h1>Welcome</h1>
+                    <h2>ABM. Dr. Halima Sulaiman Zakari</h2>
+                    <p class="subtitle">(Mommyn Jigawa)</p>
+                    <p class="tagline">Together for a Better Tomorrow</p>
+                </div>
+                <div class="header-badges">
+                    <span class="badge">Empower</span>
+                    <span class="badge">Support</span>
+                    <span class="badge">Uplift</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Registration Form Section -->
+            <section class="form-section">
+                <div class="form-header">
+                    <h3>📋 Registration Form</h3>
+                    <p>Fill in your details below and click Submit</p>
+                </div>
+
+                <form id="registrationForm" class="form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name <span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="secondName">Second Name <span class="required">*</span></label>
+                            <input type="text" id="secondName" name="secondName" placeholder="Enter your second name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="08012345678" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ward">Ward <span class="required">*</span></label>
+                            <input type="text" id="ward" name="ward" placeholder="Enter your ward" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lga">LGA <span class="required">*</span></label>
+                            <select id="lga" name="lga" required>
+                                <option value="">Select your LGA</option>
+                                <option value="Auyo">Auyo</option>
+                                <option value="Babbar">Babbar</option>
+                                <option value="Birni">Birni</option>
+                                <option value="Buji">Buji</option>
+                                <option value="Dutse">Dutse</option>
+                                <option value="Gagarawa">Gagarawa</option>
+                                <option value="Gumel">Gumel</option>
+                                <option value="Guri">Guri</option>
+                                <option value="Gwaram">Gwaram</option>
+                                <option value="Gwiwa">Gwiwa</option>
+                                <option value="Hadejia">Hadejia</option>
+                                <option value="Jahun">Jahun</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kafin Hausa">Kafin Hausa</option>
+                                <option value="Kazaure">Kazaure</option>
+                                <option value="Kiyawa">Kiyawa</option>
+                                <option value="Kordofan">Kordofan</option>
+                                <option value="Kura">Kura</option>
+                                <option value="Maigatari">Maigatari</option>
+                                <option value="Malam Madori">Malam Madori</option>
+                                <option value="Miga">Miga</option>
+                                <option value="Ringim">Ringim</option>
+                                <option value="Roni">Roni</option>
+                                <option value="Sule Tankarkar">Sule Tankarkar</option>
+                                <option value="Taura">Taura</option>
+                                <option value="Yankwashi">Yankwashi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State <span class="required">*</span></label>
+                            <select id="state" name="state" required>
+                                <option value="">Select your state</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross River">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamfara</option>
+                                <option value="FCT">FCT</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">✈️ Submit Registration</button>
+                </form>
+
+                <div class="email-notification">
+                    <p>✉️ All submitted data will be sent to: <strong>ambdrhalimasulaiman zakari@gmail.com</strong></p>
+                </div>
+            </section>
+
+            <!-- Registered People Section -->
+            <section class="registered-section">
+                <div class="section-header">
+                    <h3>👥 Registered People</h3>
+                    <p class="total-count">Total Registered: <span id="totalCount">0</span></p>
+                </div>
+
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>S/N</th>
+                                <th>First Name</th>
+                                <th>Second Name</th>
+                                <th>Phone Number</th>
+                                <th>Ward</th>
+                                <th>LGA</th>
+                                <th>State</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr class="empty-state">
+                                <td colspan="8">
+                                    <div class="empty-message">
+                                        <p>No records yet</p>
+                                        <small>Data will appear here after submission.</small>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="stats-footer">
+                    <div class="stat-item">
+                        <p>Total Number of People: <span class="stat-number" id="statNumber">0</span></p>
+                    </div>
+                    <div class="stat-item">
+                        <p>📧 Data will also be sent to: <strong>ambdrhalimasulaiman zakari@gmail.com</strong></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Thank you for your participation</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
